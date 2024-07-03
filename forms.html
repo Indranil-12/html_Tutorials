@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header><h1>Form Submission</h1></header><br><hr>
+
+    <main>
+        <!-- TO create a form -->
+        <form action="anything.php">
+
+            <!-- Input text box important attributes type & placeholder -->
+            <label for="text">   
+                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your age">
+                <input type="text" placeholder="Enter your college id">
+            </label> 
+
+            <br> <br>
+            <!-- Radio buttons using labels  Important keywords value, name & id-->
+            <label for="radioButton">
+                <input type="radio" value="1" name="class" id="id1" >1
+                <input type="radio" value="2" name="class" id="id1" >2
+                <input type="radio" value="3" name="class" id="id1" >3
+                <input type="radio" value="4" name="class" id="id1" >4
+            </label>
+
+            <br> <br>
+            <!-- Checkbox buttons  -->
+            <label for="Checkbox">
+                    <input type="checkbox" name="English" id="cb1">English <br>
+                    <input type="checkbox" name="Bengali" id="cb2">Bengali <br>
+                    <input type="checkbox" name="Math" id="cb3">Math <br>
+                    <input type="checkbox" name="Science" id="cb4">Science <br>
+            </label>
+
+            <!-- Select buttons -->
+            <select name="selectOption" id="sO">
+                <option value="ENG">Eng</option>
+                <option value="BEN">Ben</option>
+                <option value="Math">Math</option>
+                <option value="Sci">Sci</option>
+            </select>
+
+            <br><br>
+            <!-- Textarea for taking feedback or anything else -->
+            <textarea name="textarea" id="tA" cols="30" rows="10" placeholder="write what in your mind"></textarea>
+
+
+            <!-- some other buttons in forms to take inputs -->
+            <br><br>
+            <input type="button" value="button">
+            <br><br>
+            <input type="color" name="color" id="col">
+            <br><br>
+            <input type="email" name="email" id="email" placeholder="abcd@gmail.com">
+            <br><br>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <input type="datetime-local" name="datetime-local" id="DTL">
+            <br><br>
+            <input type="file" name="file" id="file">
+            <br><br>
+
+
+
+            <br>
+            <!-- submit form -->
+            <input type="submit" value="submit">
+
+        </form>
+    </main>
+
+<br><hr>
+    <footer>Contact Us</footer>
+    
+</body>
+</html>
